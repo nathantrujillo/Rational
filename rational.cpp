@@ -31,7 +31,7 @@ Rational Rational::sub(Rational b)
 {
 	numt = (num + (-1 * b.num));
 	dent = (den + (-1 * b.den));
-	Rational temp(num, den);
+	Rational temp(numt, dent);
 	return temp;
 }
 
